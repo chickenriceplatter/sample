@@ -12,7 +12,7 @@ require 'mina/git'
 set :user, 'deploy'
 set :domain, '192.168.33.10'
 set :deploy_to, '/app/sample'
-set :repository, 'https://github.com/chickenriceplatter/sample.git'
+set :repository, 'git@github.com:chickenriceplatter/sample.git'
 set :branch, 'master'
 
 # For system-wide RVM install.
